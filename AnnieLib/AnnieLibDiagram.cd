@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BitworkSystem.Annie.BO.BusinessDay">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAEAAAAAAAAIAAgAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>BO\BusinessDay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.BusinessDayReport" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BO\BusinessDayReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.City">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABYAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>BO\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.Country" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAABAAAAAA=</HashCode>
+      <FileName>BO\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.Fluid" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAEAAACAIEAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>BO\Fluid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.Pump" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAIAAAIEAIAAAAAAAAAAAABAAAACAAAAQAA=</HashCode>
+      <FileName>BO\Pump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.PumpReading" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAEAgAAAAAACAAAAABIAAAAAAADEAA=</HashCode>
+      <FileName>BO\PumpReading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.PumpSale" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAAAAAAAAACAAAAgAAAAAAAAAAAABAAAAEAAAAAAA=</HashCode>
+      <FileName>BO\PumpSale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.SalesRate" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAIAAAAAIEAAAAAAAAIAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>BO\SalesRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.State" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQAAAAAAAAAAAAAAAAAIQAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>BO\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.Station" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAFQAABAAAMgQAAAAAAAAAAAAAAAAAAJAAAEAA=</HashCode>
+      <FileName>BO\Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.Tank" Collapsed="true">
+    <Position X="18.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAIAIAAEMEBAAAAAAAAAgAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>BO\Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.TankActivity" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAEAAAAAAAAAAgAAAAAAEIABAgAAAA=</HashCode>
+      <FileName>BO\TankActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.TankReading" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAgAAAAAAAAhAAAAIAEAAAAADEAA=</HashCode>
+      <FileName>BO\TankReading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.BO.TankVolumeLogg" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACEAAABAAAAAAAAAgAAAAAAEIAAAAAAAA=</HashCode>
+      <FileName>BO\TankVolumeLogg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.AnnieDataContext">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABQAgAMAoAAAEAAIAAAQEAAAAAAAAAAAAIBAAAAAA=</HashCode>
+      <FileName>DAL\AnnieDataContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.BusinessDayData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\BusinessDayData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.BusinessDayReportData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\BusinessDayReportData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.CityData" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\CityData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.CountryData" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\CountryData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.FluidData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\FluidData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.PumpData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\PumpData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.PumpReadingData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\PumpReadingData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.PumpSaleData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\PumpSaleData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.SalesRateData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\SalesRateData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.StateData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\StateData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.StationData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\StationData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.TankActivityData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\TankActivityData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.TankReadingData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\TankReadingData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BitworkSystem.Annie.DAL.TankvolumeLoggData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAQAAAAAAAAEAAAgAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\TankvolumeLoggData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="BitworkSystem.Annie.BLL.Contract.IManager&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\Contract\IManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BitworkSystem.Annie.DAL.Contract.IRepository&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAgAIA=</HashCode>
+      <FileName>DAL\Contract\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BitworkSystem.Annie.BO.ActivityType" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAAAAgAAAA=</HashCode>
+      <FileName>BO\ActivityType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BitworkSystem.Annie.BO.ResponseCodes" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>BO\ErrorCodes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,9 @@
+C:\Users\Folorunsho Solomon\Documents\tfs\Annie\Annie\AnnieLib\bin\Debug\AnnieLib.dll.config
+C:\Users\Folorunsho Solomon\Documents\tfs\Annie\Annie\AnnieLib\bin\Debug\AnnieLib.dll
+C:\Users\Folorunsho Solomon\Documents\tfs\Annie\Annie\AnnieLib\bin\Debug\AnnieLib.pdb
+C:\Users\Folorunsho Solomon\Documents\tfs\Annie\Annie\AnnieLib\bin\Debug\EntityFramework.dll
+C:\Users\Folorunsho Solomon\Documents\tfs\Annie\Annie\AnnieLib\bin\Debug\NLog.dll
+C:\Users\Folorunsho Solomon\Documents\tfs\Annie\Annie\AnnieLib\bin\Debug\EntityFramework.xml
+C:\Users\Folorunsho Solomon\Documents\tfs\Annie\Annie\AnnieLib\bin\Debug\NLog.xml
+C:\Users\Folorunsho Solomon\Documents\tfs\Annie\Annie\AnnieLib\obj\Debug\AnnieLib.dll
+C:\Users\Folorunsho Solomon\Documents\tfs\Annie\Annie\AnnieLib\obj\Debug\AnnieLib.pdb

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnieLib", "AnnieLib\AnnieLib.csproj", "{7C874494-FFB0-4888-ACDB-96BCE8BD0ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnieWeb", "AnnieWeb\AnnieWeb.csproj", "{AA5A3D1C-ACBA-4F47-9BDF-38FDB55DB551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnieDesktop", "WpfApplication1\AnnieDesktop.csproj", "{31AAEA8C-9E49-4ACD-9E14-817CF7B75F3B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bitworksystem.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AnnieLib\\AnnieLib.csproj
+		SccProjectName1 = AnnieLib
+		SccLocalPath1 = AnnieLib
+		SccProjectUniqueName2 = AnnieWeb\\AnnieWeb.csproj
+		SccProjectName2 = AnnieWeb
+		SccLocalPath2 = AnnieWeb
+		SccProjectUniqueName3 = WpfApplication1\\AnnieDesktop.csproj
+		SccProjectName3 = WpfApplication1
+		SccLocalPath3 = WpfApplication1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C874494-FFB0-4888-ACDB-96BCE8BD0ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C874494-FFB0-4888-ACDB-96BCE8BD0ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C874494-FFB0-4888-ACDB-96BCE8BD0ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C874494-FFB0-4888-ACDB-96BCE8BD0ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5A3D1C-ACBA-4F47-9BDF-38FDB55DB551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5A3D1C-ACBA-4F47-9BDF-38FDB55DB551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5A3D1C-ACBA-4F47-9BDF-38FDB55DB551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5A3D1C-ACBA-4F47-9BDF-38FDB55DB551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AAEA8C-9E49-4ACD-9E14-817CF7B75F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AAEA8C-9E49-4ACD-9E14-817CF7B75F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AAEA8C-9E49-4ACD-9E14-817CF7B75F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AAEA8C-9E49-4ACD-9E14-817CF7B75F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

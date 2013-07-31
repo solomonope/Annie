@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C874494-FFB0-4888-ACDB-96BCE8BD0ACB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BitworkSystem.Annie</RootNamespace>
+    <AssemblyName>AnnieLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\packages\NLog.2.0.1.2\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BusinessDayManager.cs" />
+    <Compile Include="BLL\BusinessDayReportManager.cs" />
+    <Compile Include="BLL\CityManager.cs" />
+    <Compile Include="BLL\Contract\IManager.cs" />
+    <Compile Include="BLL\CountryManager.cs" />
+    <Compile Include="BLL\FluidManager.cs" />
+    <Compile Include="BLL\PumpManager.cs" />
+    <Compile Include="BLL\PumpReadingManager.cs" />
+    <Compile Include="BLL\PumpSaleManager.cs" />
+    <Compile Include="BLL\SalesRateManager.cs" />
+    <Compile Include="BLL\StateManager.cs" />
+    <Compile Include="BLL\StationManager.cs" />
+    <Compile Include="BLL\TankActivityManager.cs" />
+    <Compile Include="BLL\TankManager.cs" />
+    <Compile Include="BLL\TankReadingManager.cs" />
+    <Compile Include="BLL\TankVolumeLoggManager.cs" />
+    <Compile Include="BO\ActivityType.cs" />
+    <Compile Include="BO\BusinessDay.cs" />
+    <Compile Include="BO\BusinessDayReport.cs" />
+    <Compile Include="BO\City.cs" />
+    <Compile Include="BO\Country.cs" />
+    <Compile Include="BO\ErrorCodes.cs" />
+    <Compile Include="BO\Fluid.cs" />
+    <Compile Include="BO\Pump.cs" />
+    <Compile Include="BO\PumpReading.cs" />
+    <Compile Include="BO\PumpSale.cs" />
+    <Compile Include="BO\SalesRate.cs" />
+    <Compile Include="BO\State.cs" />
+    <Compile Include="BO\Station.cs" />
+    <Compile Include="BO\Tank.cs" />
+    <Compile Include="BO\TankActivity.cs" />
+    <Compile Include="BO\TankReading.cs" />
+    <Compile Include="BO\TankVolumeLogg.cs" />
+    <Compile Include="DAL\AnnieDataContext.cs" />
+    <Compile Include="DAL\BusinessDayReportData.cs" />
+    <Compile Include="DAL\BusinessDayData.cs" />
+    <Compile Include="DAL\CityData.cs" />
+    <Compile Include="DAL\Contract\IRepository.cs" />
+    <Compile Include="DAL\CountryData.cs" />
+    <Compile Include="DAL\FluidData.cs" />
+    <Compile Include="DAL\PumpData.cs" />
+    <Compile Include="DAL\PumpReadingData.cs" />
+    <Compile Include="DAL\PumpSaleData.cs" />
+    <Compile Include="DAL\SalesRateData.cs" />
+    <Compile Include="DAL\StateData.cs" />
+    <Compile Include="DAL\StationData.cs" />
+    <Compile Include="DAL\TankActivityData.cs" />
+    <Compile Include="DAL\TankReadingData.cs" />
+    <Compile Include="DAL\TankvolumeLoggData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="AnnieLibDiagram.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
